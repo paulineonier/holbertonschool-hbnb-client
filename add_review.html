@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajouter un Avis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo de l'application" class="logo">
+        <a href="login.html" class="login-button">Connexion</a>
+    </header>
+
+    <main>
+        <form class="add-review">
+            <label for="comment">Commentaire :</label>
+            <textarea id="comment" name="comment" required></textarea>
+            <label for="rating">Note :</label>
+            <select id="rating" name="rating" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button type="submit">Soumettre l'avis</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Tous droits réservés</p>
+    </footer>
+</body>
+</html>
